@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "easy-communication",
+  "version": "0.1.0",
+  "description": "Thai and English communication support and optional practice for autistic communicators. Age-eligible direct use; adult-prepared materials for younger learners. Prototype, not therapy.",
+  "keywords": ["accessibility", "communication", "autism", "thai", "english"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Easy Communication",
+        "shortDescription": "Communicate at your pace",
+        "longDescription": "Two skills help people express their own messages or choose short communication practice. Thai and English, one question at a time, stable numbered choices, free-text answers, and stop/skip controls. Learners can communicate using a single word without completing a sentence. Intended for age-eligible users; adults can prepare offline materials for younger learners. ChatGPT under-13 interactions must be adult-conducted; ages 13–17 require parental consent. Claude consumer use is 18+. No diagnosis, therapy, outcome guarantees, persistent tracking, custom buttons, or built-in speech. Prototype; not tested with children or installed in live consumer apps yet.",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": ["ช่วยฉันสื่อสาร ใช้ภาษาไทยและตัวเลือกสั้น ๆ", "Help me say what I need, one step at a time.", "I choose to practice asking for a break."],
+        "brandColor": "#245B78",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

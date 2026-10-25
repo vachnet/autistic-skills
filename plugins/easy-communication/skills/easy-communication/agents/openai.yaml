@@ -1,0 +1,4 @@
+interface:
+  display_name: "Easy Communication / ช่วยฉันสื่อสาร"
+  short_description: "Express your message in Thai or English."
+  default_prompt: "Use $easy-communication to help me express what I need, one step at a time."

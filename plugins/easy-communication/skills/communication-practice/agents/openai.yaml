@@ -1,0 +1,4 @@
+interface:
+  display_name: "Communication Practice / ฝึกสื่อสาร"
+  short_description: "Choose short Thai or English communication practice."
+  default_prompt: "Use $communication-practice for a short practice topic I choose, with an option to stop."
